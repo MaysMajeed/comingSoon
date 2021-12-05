@@ -1,18 +1,3 @@
-// var pattern = /^[a-zA-Z]{2}$/;
-
-// var submitButton = document.querySelector(".submit");
-// submitButton.addEventListener("click", ValidateEmail);
-
-// function ValidateEmail() {
-//   var mytext = document.getElementById("emailAdress");
-//   var myInput = document.getElementById("emailAdress").value;
-//   var warrMessage = document.querySelector(".warr-message");
-//   if (pattern.test(myInput)) {
-//     warrMessage.classList.add = "visiblex";
-//   }
-//   warrMessage.classList.remove = "visiblex";
-// }
-
 const submitBtn = document.querySelector(".submit");
 const emailInput = document.querySelector("#emailAdress");
 const errorImg = document.querySelector(".errImage");
